@@ -5,6 +5,7 @@
 * Scala 2.12.4
 * Ammonite-REPL 1.1.0
 * TinkerPop 3.3.1
+* gremlin-scala 3.3.1.2
 
 ### How to use
 * `sbt test:console`

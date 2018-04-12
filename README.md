@@ -7,8 +7,8 @@
 * TinkerPop 3.3.1
 * gremlin-scala 3.3.1.2
 
-### How to use
-* `sbt test:console`
+### How to use:
+* `sbt test:run`
 ```scala
 import gremlin.scala._
 import org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory

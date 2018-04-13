@@ -31,6 +31,8 @@ graph.V.hasLabel("person").value(name).toList
 
 * `sbt assembly`
 
-The *jar* file will be created under */target/scala-2.12* and you can run it with
+The *jar* file will be created under */target/scala-2.12* and you can run it with:
+
+* `java -jar filename.jar`
 
 

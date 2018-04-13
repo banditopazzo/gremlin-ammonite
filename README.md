@@ -7,14 +7,30 @@
 * TinkerPop 3.3.1
 * gremlin-scala 3.3.1.2
 
+#### [Download](https://github.com/banditopazzo/gremlin-ammonite/releases/download/0.2/gremlin-ammonite-0.2.jar)
+
 ### How to use:
-* `sbt test:run`
+
+Launch the downloaded file with:
+
+* `java -jar filename.jar`
+
 ```scala
-import gremlin.scala._
-import org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory
 implicit val graph = TinkerFactory.createModern.asScala
 val name = Key[String]("name")
 
 graph.V.hasLabel("person").value(name).toList
 // List(marko, vadas, josh, peter)
 ```
+
+### How to run directly from sbt:
+
+* `sbt run`
+
+### How to create the fat jar standalone version:
+
+* `sbt assembly`
+
+The *jar* file will be created under */target/scala-2.12* and you can run it with
+
+

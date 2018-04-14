@@ -7,7 +7,7 @@
 * TinkerPop 3.3.1
 * gremlin-scala 3.3.1.2
 
-### [Download](https://github.com/banditopazzo/gremlin-ammonite/releases/download/0.2/gremlin-ammonite-0.2.jar)
+### [Download](https://github.com/banditopazzo/gremlin-ammonite/releases/download/0.3/gremlin-ammonite-0.3.jar)
 
 ### How to use:
 
